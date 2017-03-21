@@ -1,8 +1,11 @@
 // See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/ForEach
 
-function myEach(arr, callback) {
+function myEach(Array, callback) {
   
-  //  CODE INSIDE HERE   //
+var orange = ["Gold", "mandarina"];
+for(var i=0; i < orange.length; i++){
+    console.log(orange[i] + "!");
+}
 
 }
 
